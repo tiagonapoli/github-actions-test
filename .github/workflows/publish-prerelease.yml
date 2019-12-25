@@ -1,6 +1,8 @@
-name: publish
+name: publish-prerelease
 
-on: [release]
+on:
+  release:
+    types: [prerelease]
 
 jobs:
   build:
